@@ -6,7 +6,7 @@ class List {
 
 const list = new List([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
 
-let pageNumber = 0
+let pageNumber = 1
 
 /**
  * @param {Number} showNumber 一页显示几个数据
@@ -35,5 +35,7 @@ function next(showNumber) {
     }
   }
 }
+
+page(5, pageNumber)
 
 next(5)
